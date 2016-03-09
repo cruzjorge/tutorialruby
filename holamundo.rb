@@ -7,7 +7,8 @@ class HolaMundo
     def initialize
     end
     def saluda
-        puts "Hola mundo" # Imprimimos el mensaje "Hola Mundo"
+        nombre = "Hola mundo"
+        puts nombre # Imprimimos el mensaje "Hola Mundo"
     end
 end
 # Creamos el objeto de la clase Hola Mundo
