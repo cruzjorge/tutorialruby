@@ -1,9 +1,15 @@
 require_relative 'clsPerro.rb'
 
 dog = Perro.new('Firulais', 'Chihuahua')
-dog.dame_raza
+dogDos = Perro.new('Boby', 'Pastor Aleman')
+puts dog.dame_raza
 
-puts 1.next;
+def dog.hablar
+    return 'Hola mundo'
+end
+puts dog.hablar
 
-siguiente = 1.method('next')
-puts siguiente.call
+#puts 1.next;
+
+#siguiente = 1.method('next')
+#puts siguiente.call
