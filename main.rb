@@ -1,7 +1,7 @@
 require_relative 'clsPerro.rb'
 
-obj = Perro.new()
-obj.ladrar
+dog = Perro.new('Firulais', 'Chihuahua')
+dog.dame_raza
 
 puts 1.next;
 
