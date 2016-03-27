@@ -1,4 +1,3 @@
-$ejemplo = "Hola codigo global"
 class HolaMundo
     def initialize
     end
