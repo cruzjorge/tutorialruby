@@ -12,4 +12,5 @@ class Perro
     def dame_raza
         return @raza
     end
+    attr_accessor :nombre
 end
