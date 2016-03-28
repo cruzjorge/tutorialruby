@@ -5,6 +5,9 @@ class Mamifero
     def respirar
         return "sss ss"
     end
+    def ruido
+        return "sss"
+    end
 end
 
 class Perro < Mamifero
@@ -12,8 +15,13 @@ class Perro < Mamifero
         @nombre = nombre
         @raza = raza
         # Llamando al constructor de la clase padre
-        super()
+        #super()
     end
+
+    def ruido
+        return super << " woaf!"
+    end
+
     def ladrar
         puts "Gua gua"
     end
